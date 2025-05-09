@@ -37,7 +37,7 @@ nav{
     min-height: 50px;
   }
 
-  body{
+  .body1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 100;
     background-color: rgb(156, 151, 231);
@@ -48,3 +48,77 @@ nav{
     text-align: center;
 }
 
+.bld{
+    font-weight: bold;
+}
+
+.body2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4323f5, #f29d77);
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.flashcard-container{
+    text-align: center;
+    background-color: rgb(230, 221, 236);
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px; rgba(0. 0. 0, 0.2);
+    max-width: 460px;
+    margin-bottom: 80px;
+}
+
+.flashcard{
+    width: 100px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    margin: 0 auto;
+}
+
+.flashcard.is-flipped{
+    transform: rotateY(180deg);
+}
+
+.flashcard div{
+    position: absolute;
+    width: 120%;
+    height: 80%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #b48ae4, #decff0);
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.1cm;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+button{
+    margin: 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #321455;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #b48ae4;
+}
+
+button:active {
+    transform: scale(0.95);
+}
