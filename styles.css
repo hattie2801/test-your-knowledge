@@ -54,9 +54,6 @@ nav{
 
 .body2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background: linear-gradient(135deg, #4323f5, #f29d77);
     margin: 0;
