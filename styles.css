@@ -70,17 +70,17 @@ nav{
     padding: 60px;
     border-radius: 30px;
     box-shadow: 0 0 15px; rgba(0. 0. 0, 0.2);
-    max-width: 460px;
+    width: 600px;
     margin-bottom: 80px;
 }
 
 .flashcard{
-    width: 100px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.6s;
-    margin: 0 auto;
+    margin: 0;    
 }
 
 .flashcard.is-flipped{
@@ -89,8 +89,8 @@ nav{
 
 .flashcard div{
     position: absolute;
-    width: 120%;
-    height: 80%;
+    width: 200%;
+    height: 125%;
     backface-visibility: hidden;
     border-radius: 15px;
     background: linear-gradient(135deg, #b48ae4, #decff0);
