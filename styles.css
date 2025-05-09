@@ -37,4 +37,14 @@ nav{
     min-height: 50px;
   }
 
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    background-color: rgb(156, 151, 231);
+    color: black;
+}
   
+.instruct{
+    text-align: center;
+}
+
