@@ -2,6 +2,9 @@
 
 Capstone Project
 
+![Webpage](image.png)
+
+
 # DevMaster
 
 DevMaster is an interactive web page designed to help users master front-end web development concepts through engaging flashcards. Whether you're just starting our or looking to brush up on your skills, DevMaster offers content across HTML, CSS, and JavaScript tailored for all levels including beginner, intermediate, and advanced. 
